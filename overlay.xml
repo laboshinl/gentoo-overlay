@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>lxmx</name>
+    <description>experimental ebuilds from lxmx</description>
+    <homepage>http://github.com/lxmx/gentoo-overlay</homepage>
+    <owner>
+      <email>vaskas@lxmx.com.au</email>
+      <name>Vasily Mikhaylichenko</name>
+    </owner>
+    <source type="git">git://github.com/vaskas/gentoo-overlay.git</source>
+    <source type="git">http://github.com/vaskas/gentoo-overlay.git</source>
+    <feed>http://github.com/feeds/vaskas/commits/gentoo-overlay/master</feed>
+  </repo>
+</repositories>
