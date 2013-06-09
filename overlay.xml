@@ -9,8 +9,8 @@
       <email>vaskas@lxmx.com.au</email>
       <name>Vasily Mikhaylichenko</name>
     </owner>
-    <source type="git">git://github.com/vaskas/gentoo-overlay.git</source>
-    <source type="git">http://github.com/vaskas/gentoo-overlay.git</source>
-    <feed>http://github.com/feeds/vaskas/commits/gentoo-overlay/master</feed>
+    <source type="git">git://github.com/lxmx/gentoo-overlay.git</source>
+    <source type="git">http://github.com/lxmx/gentoo-overlay.git</source>
+    <feed>http://github.com/feeds/lxmx/commits/gentoo-overlay/master</feed>
   </repo>
 </repositories>
