@@ -13,9 +13,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND="dev-vcs/git"
-RDEPEND="${DEPEND}
-        app-arch/dpkg"
+DEPEND=""
+RDEPEND="${DEPEND}"
 
 S="${WORKDIR}"
 
