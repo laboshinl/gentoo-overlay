@@ -19,14 +19,20 @@ RDEPEND="${DEPEND}"
 S="${WORKDIR}"
 
 src_unpack() {
-        unpack ${A} ./data.tar.gz
-        unpack ${A} ./control.tar.gz
+  unpack ${A} ./data.tar.gz
 }
 
 src_install() {
-        local dest="${D}/opt"
-        mkdir -p "$dest"
+  local dest="${D}/opt"
+  mkdir -p "$dest"
 
-        cp -pR ./opt/* "$dest"
-        sh ./postinst
+  cp -pR ./opt/* "$dest"
+
+  dosym "$dest/chef/bin/chef-client" /usr/bin/chef-client || die
+  dosym "$dest/chef/bin/chef-solo" /usr/bin/chef-solo     || die
+  dosym "$dest/chef/bin/chef-apply" /usr/bin/chef-apply   || die
+  dosym "$dest/chef/bin/chef-shell" /usr/bin/chef-shell   || die
+  dosym "$dest/chef/bin/knife" /usr/bin/knife             || die
+  dosym "$dest/chef/bin/shef" /usr/bin/shef               || die
+  dosym "$dest/chef/bin/ohai" /usr/bin/ohai               || die
 }
