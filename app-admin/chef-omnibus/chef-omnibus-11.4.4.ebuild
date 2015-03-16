@@ -6,7 +6,7 @@ EAPI=4
 
 DESCRIPTION="An Omnibus installation of Chef client"
 HOMEPAGE="http://www.opscode.com/chef/install/"
-SRC_URI="https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/11.04/x86_64/chef_11.4.4-2.ubuntu.11.04_amd64.deb"
+SRC_URI="https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_12.1.1-1_amd64.deb"
 
 LICENSE="Apache"
 SLOT="0"
