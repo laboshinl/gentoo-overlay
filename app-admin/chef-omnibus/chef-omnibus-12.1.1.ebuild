@@ -33,6 +33,5 @@ src_install() {
   dosym "$dest/chef/bin/chef-apply" /usr/bin/chef-apply   || die
   dosym "$dest/chef/bin/chef-shell" /usr/bin/chef-shell   || die
   dosym "$dest/chef/bin/knife" /usr/bin/knife             || die
-  dosym "$dest/chef/bin/shef" /usr/bin/shef               || die
   dosym "$dest/chef/bin/ohai" /usr/bin/ohai               || die
 }
